@@ -23,3 +23,12 @@ tr anything_you_want
 ## Configuration
 
 Just look into the workflow and edit the *Script Filters* to meet your needs.
+
+## 新增
+在原作者实现的功能基础上，进行了扩展
+1.使用translate.js进行翻译实现；
+2.简化翻译，中英互译；
+3.简化翻译结果；
+
+
+(大陆用户版本下载)(https://github.com/liuxing87327/alfred-google-translate-workflow/raw/liuxing87327-translation.js/Google%20Translate.alfredworkflow)
