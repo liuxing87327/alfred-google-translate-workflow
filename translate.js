@@ -31,7 +31,19 @@ tjs.translate({
 			});
 		}
 
-		// console.log(JSON.stringify(output));
+        if (res.dict) {
+            res.dict.forEach((data) => {
+                if (data !== query) {
+                    output.items.push({
+                        title: data,
+                        subtitle: query,
+                        arg: data
+                    });
+                }
+            });
+        }
+
+		console.log(JSON.stringify(output));
 	}).catch(e => {
 		console.error(e);
 	});
