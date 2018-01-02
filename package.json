@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/zetavg/alfred-google-translate-workflow#readme",
   "dependencies": {
-    "translation.js": "^0.6.4"
+    "translation.js": "^0.6.8"
   }
 }
